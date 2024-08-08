@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testpackage.MainPageTest">
+        <methods>
+          <include name="testverifyDoubleClick"/>
+          <include name="testResizing"/>
+          <include name="testBooksWebTableTable"/>
+          <include name="testConfirmationTextAlert"/>
+          <include name="testDatepickerforDate"/>
+          <include name="testCountryDropdown"/>
+          <include name="TestPassingValuestoTextFields"/>
+          <include name="TestGenderRadiobutton"/>
+          <include name="AfterTesting"/>
+          <include name="testverifyDragnDrop"/>
+          <include name="testPaginationTable"/>
+          <include name="testWikipediaSearch"/>
+          <include name="SetUp"/>
+          <include name="setUp"/>
+          <include name="testPromptAlert"/>
+          <include name="testMultiSelectDropdown"/>
+          <include name="testNavigationtoOpenCart"/>
+          <include name="testSlider"/>
+          <include name="testCheckAllCheckBoxes"/>
+          <include name="testIFrames"/>
+          <include name="testJavascriptAlerts"/>
+          <include name="testUncheckAllCheckBoxes"/>
+        </methods>
+      </class> <!-- testpackage.MainPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
